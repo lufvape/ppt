@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra, Papel, o Tijera</title>
 </head>
 <body>
-
+    <div class="title">Haz una sabia elección!</div>
+    <div class="contenido">
+      <div class="item">
+        <img src="./images/winggo-tse-jZ-t6RRv5ZE-unsplash.jpg" alt="barberry">
+        <div class="text"><strong>Piedra:</strong> vence a tijera, pierde contra papel.</div>
+        <button id="piedra">Elegir</button>
+      </div>
+      <div class="item">
+        <img src="./images/brandi-redd-aJTiW00qqtI-unsplash.jpg" alt="chili">
+        <div class="text"><strong>Papel:</strong> vence a piedra, pierde contra tijera.</div>
+        <button id="papel">Elegir</button>
+      </div>
+      <div class="item">
+        <img src="./images/matt-artz-SmocKx2oDZc-unsplash.jpg" alt="pepper">
+        <div class="text"><strong>Tijera:</strong> vence a papel, pierde contra piedra.</div>
+        <button id="tijera">Elegir</button>
+      </div>
+    </div>
+    <p>El resultado de esta ronda es:</p>
+    <div class="title ronda"></div>
+    <!-- disregard this section, it's here to give attribution to the creator of these icons -->
+    <div class="footer">
+      <p class="marcador"></p>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
